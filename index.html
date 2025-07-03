@@ -36,13 +36,12 @@
             border-radius: 0;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
             transition: transform 0.3s ease;
-            object-fit: contain;
+            object-fit: cover;
         }
         
         /* Mobile landscape optimization */
         @media screen and (max-width: 768px) and (orientation: landscape) {
             .game-board {
-                object-fit: cover;
                 width: 100vw;
                 height: 100vh;
             }
